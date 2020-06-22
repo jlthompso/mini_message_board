@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="../public/stylesheets/style.css">
+    </head>
+    <body>
+        <h1>Create a new message:</h1>
+        <form method="POST" action="/new">
+            <label for="messageUser">Username:</label>
+            <input type="text" name="messageUser">
+            <br>
+            <label for="messageTest">Message:</label>
+            <input type="text" name="messageText">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
